@@ -13,4 +13,12 @@
 includesElement([1, 2, 3], 2)  // должен вернуть `true`.
 */
 
-function includesElement() {}
+function includesElement(counts, a) {
+    for(let s of counts){
+        if(s === a)
+            {return true;}
+        
+    }
+    return false;
+}
+

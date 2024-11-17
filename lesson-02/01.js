@@ -17,8 +17,10 @@ let isAccess = (isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTempor
 
 // your code
 
+let a = 15
+
 if(isAccess){
-    console.log("Доступ разрешен");
+  console.log("Доступ разрешен");
 }else {
-    console.log("Доступ запрещен");
+  console.log("Доступ запрещен");
 }
