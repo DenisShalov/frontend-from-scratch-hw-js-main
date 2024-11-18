@@ -14,8 +14,8 @@ includesElement([1, 2, 3], 2)  // должен вернуть `true`.
 */
 
 function includesElement(counts, a) {
-    for(let s of counts){
-        if(s === a)
+    for(let i = 0; i<counts.length; i++){
+        if( counts[i]=== a)
             {return true;}
         
     }
