@@ -11,4 +11,15 @@
 
 function truncate(str, maxLength) {
   // your code
+  if(str.length>maxLength){
+  let strings = str.split(''); 
+  strings.splice(maxLength, (strings.length - maxLength), '...')
+  return strings.join('');
+  }else{
+    return str;
+  }
 }
+
+// console.log(truncate("Вот, что мне действительно нравится в этом", 20));
+// console.log(truncate("Короткая строка", 20));
+
